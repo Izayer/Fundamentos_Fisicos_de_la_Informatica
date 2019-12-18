@@ -1,0 +1,12 @@
+* Resistencias en paralelo circuito 1
+* Vdd defines a 12 V source with the + terminal connected at node 1 and the -terminal connected at node 0 (ground)
+vdd 1 0 vdc=12 type=vdc
+* Define resistances
+r2 1 2 1k
+r3 2 3 220
+r4 3 0 1.5k
+r5 2 0 470
+* Analysis
+.op
+* Finish command
+.end

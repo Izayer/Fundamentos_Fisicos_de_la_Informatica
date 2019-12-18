@@ -1,0 +1,22 @@
+* Resistencias en paralelo circuito dummy 1
+vdd 1 0 vdc=12 type=vdc
+* Define resistances
+r2 1 2 1k
+
+Vdummy1 2 3 vdc=0 type=vdc
+
+r3 3 4 220
+
+Vdummy2 4 5 vdc=0 type=vdc
+
+r4 5 6 1.5k
+
+Vdummy3 6 7 vdc=0 type=vdc
+
+r5 3 7 470
+
+Vdummy4 7 0 vdc=0 type=vdc
+* Analysis
+.op
+* Finish command
+.end

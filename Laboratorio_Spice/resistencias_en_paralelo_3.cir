@@ -1,0 +1,13 @@
+* Resistencias en paralelo circuito 3
+V1 1 0 vdc=9 type=vdc
+VDummy1 1 2 vdc=0 type=vdc
+VDummy2 1 3 vdc=0 type=vdc
+VDummy3 1 4 vdc=0 type=vdc
+* Define resistors
+r1 2 0 10k
+r2 3 0 2k
+r3 4 0 1k
+* Analysis
+.op
+* Finish command
+.end

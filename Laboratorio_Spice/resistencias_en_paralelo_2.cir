@@ -1,0 +1,13 @@
+* Resistencias en paralelo circuito 2
+V1 1 0 vdc=9 type=vdc
+V2 5 0 vdc=1.5 type=vdc
+* Define resistors
+r1 1 2 47
+r2 2 3 220
+r3 2 5 180
+r4 3 4 1k
+r5 4 0 560
+* Analysis
+.op
+* Finish command
+.end
